@@ -1652,7 +1652,7 @@ end
 
 ## Administratative Interface
 add_gem 'upmin-admin' if prefer :dashboard, 'upmin'
-add_gem 'administrate' , '0.2.2' if prefer :dashboard, 'administrate'
+add_gem 'administrate' , '~> 0.2.2' if prefer :dashboard, 'administrate'
 
 ## Authentication (OmniAuth)
 add_gem 'omniauth' if prefer :authentication, 'omniauth'
